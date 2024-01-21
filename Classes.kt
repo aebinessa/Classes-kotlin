@@ -4,7 +4,7 @@
     
 }
 
-class Book(var title: String, var author: String, var yearPublished: Int) {
+class Book(val title: String, val author: String, val yearPublished: Int) {
 
     fun getBookInfo(){
         println("$title by $author $yearPublished")
