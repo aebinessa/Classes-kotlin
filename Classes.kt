@@ -6,6 +6,8 @@
         theHungerGames.getFictionGenre()
         val fundemantalsOfCircuitAnalysis = nonFictionBook("fundamentals of circuit analysis", "Kendall L. Su", 1979," electricl engineering")
         fundemantalsOfCircuitAnalysis.getNonFictionGenre()
+        fundemantalsOfCircuitAnalysis.getBookInfo()
+
     
 }
 
@@ -29,3 +31,4 @@ open class Book(val title: String, val author: String, val yearPublished: Int) {
         println("$title by $author $yearPublished is a $subject book")
     }
  }
+  
